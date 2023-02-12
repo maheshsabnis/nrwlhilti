@@ -1,1 +1,21 @@
-<nx-mahng-app-nx-welcome></nx-mahng-app-nx-welcome>
+<table>
+  <tbody>
+     <tr>
+       <td>
+          <a [routerLink]="['']">Main App</a>
+       </td>
+       <td>
+        <a [routerLink]="['employee']">Employee</a>
+     </td>
+     <td>
+      <a [routerLink]="['viewencapsulation']">View Encapsulation</a>
+   </td>
+       <td>
+          <a [routerLink]="['lazy']">Lazy</a>
+       </td>
+     </tr>
+  </tbody>
+</table>
+<hr/>
+<p>The Global Style</p>
+<router-outlet></router-outlet>
